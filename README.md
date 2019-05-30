@@ -12,6 +12,8 @@ cd myproject
 # 安装依赖
 yarn
 
+# 使用时先在\src\pages\index\index.vue中配置你的appid和secret。
+
 # 开发时构建
 npm dev
 
@@ -33,5 +35,6 @@ npm build:my
 # 生成 bundle 分析报告
 npm run build --report
 ```
+
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
